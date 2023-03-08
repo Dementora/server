@@ -312,11 +312,9 @@ proxy-groups:
       - GRPC-IRC-19348th-Worker-4481
 
   - name: fast2
-    type: url-test
-    tolerance: 100
+    type: fallback
     url: 'https://www.google.com/generate_204'
-    interval: 10
-    lazy: true
+    interval: 100
     proxies:
       - vpnhack-asdasd-2117
       - vpnhack-sdfgh-2492
